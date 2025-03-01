@@ -2,16 +2,16 @@
 #include <cmath>
 
 
-//Crear una función que resuelva una ecuación cuadrática de la forma ax^2 + bx + c = 0
+//Create a function that solves a quadratic equation of the form ax^2 + bx + c = 0
 /*
-    Pseudocódigo:
-    La función debe recibir los coeficientes a, b y c y debe imprimir las raices de la ecuación
-    Si a es igual a cero, lanzar una excepción con el mensaje "Coeficiente no puede ser cero"
-    Calcular el discriminante (b^2 - 4ac)
-    Si el discriminante es mayor a cero, las raices son reales y diferentes
-    Si el discriminante es igual a cero, las raices son reales e iguales
-    Si el discriminante es menor a cero, las raices son complejas y diferentes
-    Imprimir las raices en cada caso.
+Pseudocode:
+The function must receive the coefficients a, b and c and must print the roots of the equation.
+If a is equal to zero, throw an exception with the message "The coefficient cannot be zero"
+Calculate the discriminant (b^2 - 4ac)
+If the discriminant is greater than zero, the roots are real and different.
+If the discriminant is equal to zero, the roots are real and equal
+If the discriminant is less than zero, the roots are complex and different.
+Print the roots in each case.
 */
 
 #include <iostream>
