@@ -59,6 +59,8 @@
         "cstdarg": "cpp",
         "set": "cpp",
         "unordered_set": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "complex": "cpp",
+        "cinttypes": "cpp"
     }
 }
